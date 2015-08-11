@@ -1,0 +1,43 @@
+SOS:
+
+Škola:
+cz1959, heslo radek
+
+CEITEC:
+cz73864, heslo Access
+
+cz79080, heslo vut brno  cz
+
+
+GM:
+
+CEITEC:
+petrilakm_ceitec, heslo Access
+
+GES:
+
+škola:
+fsi_ufi, heslo Access
+
+
+TME:
+
+CEITEC:
+petrilakm_ceitec, heslo hammond9
+
+
+Distrelec:
+
+CEITEC:
+petrilakm_ceitec, heslo Access
+
+
+Laserová øezaèka A2/127:
+libs1lab27
+
+
+Krabicky.cz
+
+škola:
+michal.petrilak@ceitec.vutbr.cz
+Access
