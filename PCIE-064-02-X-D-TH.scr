@@ -1,0 +1,133 @@
+#  Library Script
+# 
+#  PCB Matrix
+SET WIRE_BEND 2;
+Grid mm;
+SET COLOR_LAYER 29 3
+SET COLOR_LAYER 31 11
+SET COLOR_LAYER 39 13
+SET COLOR_LAYER 40 5
+SET COLOR_LAYER 51 6
+SET COLOR_LAYER 52 6
+SET FILL_LAYER 29 9
+SET FILL_LAYER 31 1
+SET FILL_LAYER 39 1
+SET FILL_LAYER 40 1
+SET FILL_LAYER 51 1
+SET FILL_LAYER 52 1
+Layer 1 Top;
+Layer 16 Bottom;
+Layer 17 Pads;
+Layer 18 Vias;
+Layer 19 Unrouted;
+Layer 20 Dimension;
+Layer 21 tPlace;
+Layer 22 bPlace;
+Layer 23 tOrigins;
+Layer 24 bOrigins;
+Layer 25 tNames;
+Layer 26 bNames;
+Layer 27 tValues;
+Layer 28 bValues;
+Layer 29 tStop;
+Layer 30 bStop;
+Layer 31 tCream;
+Layer 32 bCream;
+Layer 33 tFinish;
+Layer 34 bFinish;
+Layer 35 tGlue;
+Layer 36 bGlue;
+Layer 37 tTest;
+Layer 38 bTest;
+Layer 39 tKeepout;
+Layer 40 bKeepout;
+Layer 41 tRestrict;
+Layer 42 bRestrict;
+Layer 43 vRestrict;
+Layer 44 Drills;
+Layer 45 Holes;
+Layer 46 Milling;
+Layer 47 Measures;
+Layer 48 Document;
+Layer 49 Reference;
+Layer 51 tDocu;
+Layer 52 bDocu;
+Description '<b>PCB Matrix Packages</b><p>\n';
+
+Edit PCIE-064-02-X-D-TH.pac;
+Description 'PCI EXPRESS CARD CONNECTOR 64 PIN';
+Change Drill 0.7;
+Layer 1;
+PAD 'A1' Square 1.27 R0 (0 0);
+PAD 'A2' Round 1.27 R0 (-1 -2);
+PAD 'A3' Round 1.27 R0 (-2 0);
+PAD 'A4' Round 1.27 R0 (-3 -2);
+PAD 'A5' Round 1.27 R0 (-4 0);
+PAD 'A6' Round 1.27 R0 (-5 -2);
+PAD 'A7' Round 1.27 R0 (-6 0);
+PAD 'A8' Round 1.27 R0 (-7 -2);
+PAD 'A9' Round 1.27 R0 (-8 0);
+PAD 'A10' Round 1.27 R0 (-9 -2);
+PAD 'A11' Round 1.27 R0 (-10 0);
+PAD 'A12' Round 1.27 R0 (-13 -2);
+PAD 'A13' Round 1.27 R0 (-14 0);
+PAD 'A14' Round 1.27 R0 (-15 -2);
+PAD 'A15' Round 1.27 R0 (-16 0);
+PAD 'A16' Round 1.27 R0 (-17 -2);
+PAD 'A17' Round 1.27 R0 (-18 0);
+PAD 'A18' Round 1.27 R0 (-19 -2);
+PAD 'A19' Round 1.27 R0 (-20 0);
+PAD 'A20' Round 1.27 R0 (-21 -2);
+PAD 'A21' Round 1.27 R0 (-22 0);
+PAD 'A22' Round 1.27 R0 (-23 -2);
+PAD 'A23' Round 1.27 R0 (-24 0);
+PAD 'A24' Round 1.27 R0 (-25 -2);
+PAD 'A25' Round 1.27 R0 (-26 0);
+PAD 'A26' Round 1.27 R0 (-27 -2);
+PAD 'A27' Round 1.27 R0 (-28 0);
+PAD 'A28' Round 1.27 R0 (-29 -2);
+PAD 'A29' Round 1.27 R0 (-30 0);
+PAD 'A30' Round 1.27 R0 (-31 -2);
+PAD 'A31' Round 1.27 R0 (-32 0);
+PAD 'A32' Round 1.27 R0 (-33 -2);
+PAD 'B1' Round 1.27 R0 (0 2.5);
+PAD 'B2' Round 1.27 R0 (-1 4.5);
+PAD 'B3' Round 1.27 R0 (-2 2.5);
+PAD 'B4' Round 1.27 R0 (-3 4.5);
+PAD 'B5' Round 1.27 R0 (-4 2.5);
+PAD 'B6' Round 1.27 R0 (-5 4.5);
+PAD 'B7' Round 1.27 R0 (-6 2.5);
+PAD 'B8' Round 1.27 R0 (-7 4.5);
+PAD 'B9' Round 1.27 R0 (-8 2.5);
+PAD 'B10' Round 1.27 R0 (-9 4.5);
+PAD 'B11' Round 1.27 R0 (-10 2.5);
+PAD 'B12' Round 1.27 R0 (-13 4.5);
+PAD 'B13' Round 1.27 R0 (-14 2.5);
+PAD 'B14' Round 1.27 R0 (-15 4.5);
+PAD 'B15' Round 1.27 R0 (-16 2.5);
+PAD 'B16' Round 1.27 R0 (-17 4.5);
+PAD 'B17' Round 1.27 R0 (-18 2.5);
+PAD 'B18' Round 1.27 R0 (-19 4.5);
+PAD 'B19' Round 1.27 R0 (-20 2.5);
+PAD 'B20' Round 1.27 R0 (-21 4.5);
+PAD 'B21' Round 1.27 R0 (-22 2.5);
+PAD 'B22' Round 1.27 R0 (-23 4.5);
+PAD 'B23' Round 1.27 R0 (-24 2.5);
+PAD 'B24' Round 1.27 R0 (-25 4.5);
+PAD 'B25' Round 1.27 R0 (-26 2.5);
+PAD 'B26' Round 1.27 R0 (-27 4.5);
+PAD 'B27' Round 1.27 R0 (-28 2.5);
+PAD 'B28' Round 1.27 R0 (-29 4.5);
+PAD 'B29' Round 1.27 R0 (-30 2.5);
+PAD 'B30' Round 1.27 R0 (-31 4.5);
+PAD 'B31' Round 1.27 R0 (-32 2.5);
+PAD 'B32' Round 1.27 R0 (-33 4.5);
+Change Drill 2.35;
+HOLE 2.35 (-11.6499996185303 1.25);
+HOLE 2.35 (-34.7999992370605 1.25);
+Layer 51;
+Wire 0.254 (-36 -2.5) (-36 6.11) (3 6.11) (3 -2.5)\
+        (-36 -2.5);
+Layer 21;
+Wire 0.254 (-36.5 -3) (-36.5 6.61) (3.5 6.61) (3.5 -3)\
+        (-36.5 -3);
