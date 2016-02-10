@@ -9574,6 +9574,30 @@ kvuli izolacni vzdalenosti silovych obvodu</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="AVR_PROG_JTAG">
+<gates>
+<gate name="G$1" symbol="AVR_PROG_JTAG" x="2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="PSH02-10P">
+<connects>
+<connect gate="G$1" pin="GND0" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="10"/>
+<connect gate="G$1" pin="NSRST" pad="6"/>
+<connect gate="G$1" pin="NTRST" pad="8"/>
+<connect gate="G$1" pin="TCK" pad="1"/>
+<connect gate="G$1" pin="TDI" pad="9"/>
+<connect gate="G$1" pin="TDO" pad="3"/>
+<connect gate="G$1" pin="TMS" pad="5"/>
+<connect gate="G$1" pin="V-REF" pad="4"/>
+<connect gate="G$1" pin="V-SUPPLY" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
